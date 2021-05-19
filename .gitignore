@@ -127,9 +127,7 @@ etc/clusto*.conf
 # Linux workstation stuff
 !.config
 !.config/awesome
-!.config/xfce4
-!.config/xfce4/terminal
-!.config/xfce4/terminal/terminalrc
+!.config/awesome/**/*.*
 
 # Random arbitrary not-really-a-config file,
 # for use with hexdump
