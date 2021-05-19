@@ -148,6 +148,7 @@ etc/clusto*.conf
 
 !.config/zsh
 !.config/zsh/*
+!.config/zsh/**/*
 
 # Random arbitrary not-really-a-config file,
 # for use with hexdump
