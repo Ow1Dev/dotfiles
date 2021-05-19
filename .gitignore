@@ -127,7 +127,12 @@ etc/clusto*.conf
 # Linux workstation stuff
 !.config
 !.config/awesome
+!.config/awesome/*
+!.config/awesome/**/*
 !.config/awesome/**/*.*
+!.config/awesome/**/**/*.*
+!.config/awesome/**/**/**/*.*
+!.config/awesome/**/**/**/**/*.*
 
 # Random arbitrary not-really-a-config file,
 # for use with hexdump
