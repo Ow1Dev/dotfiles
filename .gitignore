@@ -137,6 +137,18 @@ etc/clusto*.conf
 !.config/kitty
 !.config/kitty/*.*
 
+!.config/picom
+!.config/picom/*
+
+!.config/ranger
+!.config/ranger/*
+
+!.config/rofi
+!.config/rofi/*
+
+!.config/zsh
+!.config/zsh/*
+
 # Random arbitrary not-really-a-config file,
 # for use with hexdump
 !.config/hexdump.format
