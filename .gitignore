@@ -126,6 +126,7 @@ etc/clusto*.conf
 
 # Linux workstation stuff
 !.config
+!.config/awesome
 !.config/xfce4
 !.config/xfce4/terminal
 !.config/xfce4/terminal/terminalrc
