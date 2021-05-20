@@ -22,9 +22,9 @@ alias ls='ls --color=auto'
 alias la='ls -d .* --color=auto'
 alias ll='ls -la'
 
-source "./plugin/spaceship-prompt.git/spaceship.zsh"
-source "./plugin/zsh-syntax-highlighting.git/zsh-syntax-highlighting.plugin.zsh"
-source "./plugin/fast-syntax-highlighting.git/fast-syntax-highlighting.plugin.zsh"
+source "$ZSH/plugin/spaceship-prompt.git/spaceship.zsh"
+source "$ZSH/plugin/zsh-syntax-highlighting.git/zsh-syntax-highlighting.plugin.zsh"
+source "$ZSH/plugin/fast-syntax-highlighting.git/fast-syntax-highlighting.plugin.zsh"
 
 SPACESHIP_PROMPT_ADD_NEWLINE=false
 SPACESHIP_PROMPT_SEPARATE_LINE=false
@@ -55,6 +55,3 @@ SPACESHIP_TERRAFORM_SHOW=false
 SPACESHIP_TERRAFORM_SHOW=false
 SPACESHIP_VI_MODE_SHOW=false
 SPACESHIP_JOBS_SHOW=false
-
-autoload -U promptinit; promptinit
-prompt spaceship
