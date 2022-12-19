@@ -16,6 +16,9 @@ HISTFILE=~/.zsh_history
 
 VIM="nvim"
 
+alias ls='ls --color=auto'
+alias ll='ls -alF'
+
 # Use modern completion system
 #autoload -Uz compinit
 #compinit
